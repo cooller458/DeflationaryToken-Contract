@@ -1,0 +1,40 @@
+{
+  "name": "ERC20Deflationary",
+  "version": "1.0.0",
+  "description": "xxxxxxxx",
+  "main": "truffle-config.js",
+  "author": "@cooller458",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "deployTestnet": "truffle migrate --network testnet",
+    "deployMainnet": "truffle migrate --network mainnet",
+    "test": "truffle test",
+    "verify": "truffle run verify --network testnet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "ERC20",
+    "Deflationary",
+    "Token"],
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "chai": "^4.3.4",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.3.4",
+    "truffle-plugin-verify": "^0.5.7"
+  }
+}
